@@ -27,12 +27,10 @@ export default class DoublyLinkedList {
       return;
     }
 
-    // let previous = this.head;
     let node = this.head.next;
 
     while (node.data !== data) {
       // Loop until the data is reached
-      // previous = node;
       node = node.next;
     }
 
